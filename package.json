@@ -1,7 +1,7 @@
 {
-  "name": "sass",
+  "name": "sass-project",
   "version": "1.0.0",
-  "description": "sass",
+  "description": "Sass-Project",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,10 +10,16 @@
     "type": "git",
     "url": "git+https://github.com/Olagoke1234/Sass-Project.git"
   },
+  "keywords": [
+    "Sass"
+  ],
   "author": "Olagoke1234",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Olagoke1234/Sass-Project/issues"
   },
-  "homepage": "https://github.com/Olagoke1234/Sass-Project#readme"
+  "homepage": "https://github.com/Olagoke1234/Sass-Project#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
 }
