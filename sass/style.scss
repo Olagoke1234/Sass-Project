@@ -1,0 +1,36 @@
+@import "utils/variables";
+@import "components/navigation";
+@import "base/base";
+
+@mixin h3_transform($angle) {
+  transform: rotate($angle);
+  -ms-transform: rotate($angle);
+  -moz-transform: rotate($angle);
+  -o-transform: rotate($angle);
+  -webkit-transform: rotate($angle);
+}
+
+article {
+  div {
+    h3 {
+      color: $color5;
+      font-size: 28px;
+    }
+    p {
+      color: $color6;
+      font-size: 20px;
+    }
+  }
+  div:nth-child(1) {
+    h3 {
+      @include h3_transform(-3deg);
+      padding-bottom: 15px;
+    }
+  }
+  div:nth-child(2) {
+    h3 {
+      @include h3_transform(-3deg);
+      padding-bottom: 15px;
+    }
+  }
+}
